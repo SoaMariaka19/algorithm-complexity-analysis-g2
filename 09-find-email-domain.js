@@ -7,3 +7,9 @@
  * Given a valid email address, find its domain part.
  */
 const findEmailDomain = (address) => address.split("@").pop();
+/**
+ * O(1)
+ * T_9(n) = 2
+ * T_9(n) = 1
+ * Constante
+ */
